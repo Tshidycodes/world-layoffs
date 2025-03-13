@@ -1,0 +1,6 @@
+﻿LOAD DATA INFILE '/var/lib/mysql-files/layoffs.csv'
+INTO TABLE layoffs
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;

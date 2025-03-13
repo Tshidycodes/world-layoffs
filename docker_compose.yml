@@ -1,0 +1,21 @@
+﻿services:
+  mysql:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=lemon
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=lemon
+      - MYSQL_DATABASE=world_layoffs
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    command: --log-bin-trust-function-creators=1 --local-infile=1
+
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+
+volumes:
+  mysql_data:
