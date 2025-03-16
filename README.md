@@ -6,7 +6,7 @@ The main objective of this project is to fix any issues with the raw data and to
 
 This project was born from a desire to polish my skills on data cleaning, an integral skill required when navigating data analysis.
 
-The data was extracted from the YouTube [Learn SQL Beginner to Advanced course](https://github.com/AlexTheAnalyst/MySQL-YouTube-Series/blob/main/layoffs.csv). The raw data is based on tracking layoffs across diffent countries and industries, and when made useful and analysed should provide insights on various industries, locations and precentages of layoffs.
+The data was extracted from the YouTube [Learn SQL Beginner to Advanced course](https://github.com/AlexTheAnalyst/MySQL-YouTube-Series/blob/main/layoffs.csv). The raw data is based on layoffs around the world from the year 2021, and when cleaned and analysed should provide insights on percentages of layoffs in various industries accross the world.
 
 # Tools used in the project
 
