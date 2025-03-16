@@ -19,6 +19,8 @@ The data was extracted from the YouTube [Learn SQL Beginner to Advanced course](
 
 # Cleaning the Data:
 
+## Step 1. Loading the Dataset
+
 ### 1. Importing the dataset
 
 To import the dataset, I copied the cvs file into my Docker container.
@@ -58,3 +60,17 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 ```
+
+### 4. Duplicating the raw data (table)
+
+Because we will be changing the staging database alot, if we make any sort of mistake we want to have the raw data available.
+
+Here are the queries for creating the duplicate table : [sql load](sql_load\3_duplicate_table.sql)
+
+## Step 2. Removing Duplicates
+
+## Step 3. Standardize the Data
+
+## Step 4. Identify Null or Blank Values
+
+## Step 5. Remove Irrelevant Columns
